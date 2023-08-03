@@ -7,6 +7,7 @@ const Settings = () => {
     const [open, setOpen] = useState(false);
     const [isHovering, setIsHovering] = useState(false);
     const settingsIconControls = useAnimationControls();
+    const [iconIsHovering, setIconIsHovering] = useState(false);
     useEffect(() => {
         if (open) {
             settingsIconControls.start({
@@ -24,9 +25,15 @@ const Settings = () => {
         <div className="settings">
             <motion.div
                 onClick={() => setOpen((prev) => !prev)}
-                className="settings-icon"
+                className={`settings-icon ${open ? "active" : ""} ${iconIsHovering ? "hovering" : ""}`}
                 animate={settingsIconControls}
-            ></motion.div>
+                onMouseEnter={() => setIconIsHovering(true)}
+                onMouseLeave={() => setIconIsHovering(false)}
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </motion.div>
             <AnimatePresence initial={false} mode="wait">
                 {open && (
                     <motion.div

@@ -1,15 +1,18 @@
-.settings-menu{
+.settings {
+    position: absolute;
+}
+.settings-menu {
     position: fixed;
     top: 25vh;
-    left:   25vw;
+    left: 25vw;
     justify-content: center;
     align-items: center;
     width: 50vw;
-    height: 50vh;   
+    height: 50vh;
     background-color: #0f0;
 }
 
-.settings-wrapper{
+.settings-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,12 +21,57 @@
     z-index: 1;
 }
 
-.settings-icon{
-    top:2.5vh;
+.settings-icon {
+    top: 2.5vh;
     left: 2.5vh;
     position: fixed;
     width: 3vh;
     height: 3vh;
-    background-color: #f00;
     z-index: 2;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.settings-icon span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    border-radius: 2px;
+    transition: transform 0.3s ease;
+}
+
+.settings-icon span:nth-child(1) {
+    top: 0;
+}
+
+.settings-icon span:nth-child(2) {
+    top: 8px;
+}
+
+.settings-icon span:nth-child(3) {
+    top: 16px;
+}
+.settings-icon.hovering span:nth-child(1) {
+    transform: translateX(-5px);
+}
+.settings-icon.hovering span:nth-child(2) {
+    transform: translateX(5px);
+}
+.settings-icon.hovering span:nth-child(3) {
+    transform: translateX(-5px);
+}
+.settings-icon.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.settings-icon.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.settings-icon.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
 }
