@@ -7,7 +7,11 @@ body {
         "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url("https://wallpaperaccess.com/full/54713.jpg");
+    background-image: url("./images/50bcfd0d95fc788004c7559be29e4b0b_5043241354960775763.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     overflow: hidden;
 }
 

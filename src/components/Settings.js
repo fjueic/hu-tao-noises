@@ -25,8 +25,13 @@ const Settings = () => {
         <div className="settings">
             <motion.div
                 onClick={() => setOpen((prev) => !prev)}
-                className={`settings-icon ${open ? "active" : ""} ${iconIsHovering ? "hovering" : ""}`}
+                className={`settings-icon ${open ? "active" : ""} ${
+                    iconIsHovering ? "hovering" : ""
+                }`}
                 animate={settingsIconControls}
+                transition={{
+                    type: "easeInOut",
+                }}
                 onMouseEnter={() => setIconIsHovering(true)}
                 onMouseLeave={() => setIconIsHovering(false)}
             >
@@ -46,6 +51,9 @@ const Settings = () => {
                         }}
                         exit={{
                             backdropFilter: "blur(0px)",
+                        }}
+                        transition={{
+                            type: "easeInOut",
                         }}
                         onClick={() => {
                             if (!isHovering) setOpen(false);
