@@ -1,0 +1,29 @@
+.settings-menu{
+    position: fixed;
+    top: 25vh;
+    left:   25vw;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;   
+    background-color: #0f0;
+}
+
+.settings-wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.settings-icon{
+    top:2.5vh;
+    left: 2.5vh;
+    position: fixed;
+    width: 3vh;
+    height: 3vh;
+    background-color: #f00;
+    z-index: 2;
+}
