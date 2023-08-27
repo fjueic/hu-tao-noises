@@ -11,7 +11,9 @@ This is project was heavily inspired by [herta kuru](https://github.com/duiqt/he
 5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Hu Tao:
-All the sounds used in this project are from [here](https://genshin-impact.fandom.com/wiki/Hu_Tao/Voice-Overs)
+All the sounds used in this project are from [here](https://genshin-impact.fandom.com/wiki/Hu_Tao/Voice-Overs).
+
+
 All the images used in this project are from google search. I do not own any of them. Open an issue if you want me to remove them from the project or if you want me to credit you.
 
 # License:
