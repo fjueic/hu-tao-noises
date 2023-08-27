@@ -2,9 +2,50 @@
     text-align: center;
     height: 100%;
     width: 100%;
+    color: #e1b390;
 }
 
 #root {
     height: 100%;
     width: 100%;
+}
+.button {
+    height: auto;
+    user-select: none;
+    border-radius: 1rem;
+    position: fixed;
+    font-size: 3rem;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    min-width: 20vw;
+    padding: 1rem;
+    background-color: #e1b390;
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: -100vw;
+    transition: all 0.3s ease-in-out;
+    color: #583538;
+}
+.button:hover {
+    background-position-x: 0;
+    color: #e1b390;
+}
+.counter {
+    position: fixed;
+    transform: translate(-50%, -50%) translate(50vw, 50vh);
+    font-size: 2.5rem;
+    z-index: -1;
+}
+.image {
+    position: fixed;
+    scale: 0.5;
+    z-index: 5;
+    width: 30vw;
+    height: auto;
+}
+.hide {
+    opacity: 0;
 }

@@ -1,5 +1,5 @@
 .settings {
-    position: absolute;
+    position: fixed;
 }
 .settings-menu {
     position: fixed;
@@ -9,7 +9,7 @@
     align-items: center;
     width: 50vw;
     height: 50vh;
-    background-color: #0f0;
+    background-color: #583538;
 }
 
 .settings-wrapper {
@@ -37,7 +37,7 @@
     display: block;
     height: 4px;
     width: 100%;
-    background-color: #fff;
+    background-color: #e1b390;
     position: absolute;
     left: 0;
     border-radius: 2px;

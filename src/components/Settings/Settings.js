@@ -1,10 +1,10 @@
+import SliderComp from "../../components/Slider/Slider";
 import React, { useEffect, useState } from "react";
 import { LuSettings } from "react-icons/lu";
 import { motion } from "framer-motion";
 import { AnimatePresence, useAnimationControls } from "framer-motion";
 import "./Settings.css";
-const Settings = () => {
-    const [open, setOpen] = useState(false);
+const Settings = ({ open, setOpen, duration, setDuration }) => {
     const [isHovering, setIsHovering] = useState(false);
     const settingsIconControls = useAnimationControls();
     const [iconIsHovering, setIconIsHovering] = useState(false);
@@ -77,7 +77,26 @@ const Settings = () => {
                             onMouseLeave={() => setIsHovering(false)}
                         >
                             <h3>Settings</h3>
-                            WHATEVER
+                            <div
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    alignItems: "center",
+                                    justifyContent: "center",
+                                    padding: "0 1rem",
+                                    margin: "1rem 0",
+
+                                }}
+                            >
+                                <div>{duration} sec &nbsp; </div>
+                                <SliderComp
+                                    min={1}
+                                    max={5}
+                                    step={0.1}
+                                    defaultValue={[duration]}
+                                    setDefaultValue={setDuration}
+                                />
+                            </div>
                         </motion.div>
                     </motion.div>
                 )}
