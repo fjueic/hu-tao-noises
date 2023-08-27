@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/hu-tao-noises/static/css/main.ad2b9b5a.css",
+    "main.js": "/hu-tao-noises/static/js/main.d6a90379.js",
+    "static/js/787.64c18975.chunk.js": "/hu-tao-noises/static/js/787.64c18975.chunk.js",
+    "static/media/_webp": "/hu-tao-noises/static/media/50bcfd0d95fc788004c7559be29e4b0b_5043241354960775763.caa96a94f731a8b108ab.webp",
+    "static/media/3.png": "/hu-tao-noises/static/media/3.e823a3f391d6dd2f837e.png",
+    "static/media/5.png": "/hu-tao-noises/static/media/5.23e2ffe9225fa005e047.png",
+    "static/media/9.png": "/hu-tao-noises/static/media/9.0512dbcdb9616a7f3e24.png",
+    "static/media/7.png": "/hu-tao-noises/static/media/7.c610e4b03feb309f0b35.png",
+    "static/media/8.png": "/hu-tao-noises/static/media/8.6a212fa4561894535c57.png",
+    "static/media/6.png": "/hu-tao-noises/static/media/6.e72f255105b9754bdbe6.png",
+    "static/media/idle.mp3": "/hu-tao-noises/static/media/idle.17b45df970eb215bb604.mp3",
+    "static/media/4.png": "/hu-tao-noises/static/media/4.c0959b2c75264fc6ae54.png",
+    "static/media/12.png": "/hu-tao-noises/static/media/12.ddda432393e07f354bc0.png",
+    "static/media/2.png": "/hu-tao-noises/static/media/2.bee587b3523d35269070.png",
+    "static/media/7.mp3": "/hu-tao-noises/static/media/7.4c60e63fb6ca23d1fd3a.mp3",
+    "static/media/5.mp3": "/hu-tao-noises/static/media/5.c9634a156f3fd63d0d16.mp3",
+    "static/media/2.mp3": "/hu-tao-noises/static/media/2.deda085635b60a337893.mp3",
+    "static/media/4.mp3": "/hu-tao-noises/static/media/4.c820bead92e5eb8d3f18.mp3",
+    "static/media/11.webp": "/hu-tao-noises/static/media/11.662204153dc8bc9c9b26.webp",
+    "static/media/10.webp": "/hu-tao-noises/static/media/10.ef0eaa557ff13556c08f.webp",
+    "static/media/3.mp3": "/hu-tao-noises/static/media/3.a06e16e757fa62539647.mp3",
+    "static/media/6.mp3": "/hu-tao-noises/static/media/6.9adace0495c9b5653c5a.mp3",
+    "static/media/1.mp3": "/hu-tao-noises/static/media/1.f4b6a861a443121aa132.mp3",
+    "static/media/1.png": "/hu-tao-noises/static/media/1.7d8dc9f0b9cde0863bec.png",
+    "index.html": "/hu-tao-noises/index.html",
+    "main.ad2b9b5a.css.map": "/hu-tao-noises/static/css/main.ad2b9b5a.css.map",
+    "main.d6a90379.js.map": "/hu-tao-noises/static/js/main.d6a90379.js.map",
+    "787.64c18975.chunk.js.map": "/hu-tao-noises/static/js/787.64c18975.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad2b9b5a.css",
+    "static/js/main.d6a90379.js"
+  ]
+}
